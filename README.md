@@ -11,10 +11,11 @@ Roteia cada tarefa para Haiku, Sonnet ou Opus conforme a complexidade e bloqueia
 No terminal do Claude Code (não funciona na aba Code do app desktop):
 
 ```
-/plugin install model-router --marketplace LuisCordeiroGF/my-mods
+/plugin marketplace add DevCordeirocf/my-mods
+/plugin install model-router@my-mods
 ```
 
-Responda `y` para adicionar o marketplace e escolha o escopo (usuário ou projeto). Depois, use o comando `/router`.
+O primeiro comando adiciona o marketplace (só precisa uma vez para todos os mods); no segundo, escolha o escopo (usuário ou projeto). Depois, use o comando `/router`.
 
 ## prompt-engineer
 
@@ -27,7 +28,8 @@ Botão acima do campo de texto que transforma o rascunho do chat em um prompt be
 ### Instalação
 
 ```
-/plugin install prompt-engineer --marketplace LuisCordeiroGF/my-mods
+/plugin marketplace add DevCordeirocf/my-mods
+/plugin install prompt-engineer@my-mods
 ```
 
 ## session-stats
@@ -44,5 +46,6 @@ Os totais de tokens contam a partir de quando o mod carrega na sessão.
 ### Instalação
 
 ```
-/plugin install session-stats --marketplace LuisCordeiroGF/my-mods
+/plugin marketplace add DevCordeirocf/my-mods
+/plugin install session-stats@my-mods
 ```

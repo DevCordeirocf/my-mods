@@ -1,32 +1,42 @@
 {
   "name": "my-mods",
   "owner": {
-    "name": "luis.chaves"
+    "name": "luis.chaves",
+    "url": "https://github.com/DevCordeirocf"
   },
   "plugins": [
     {
       "name": "model-router",
       "source": "./mods/model-router",
       "description": "Roteia tarefas entre Haiku, Sonnet e Opus e bloqueia trocas que custam mais do que economizam.",
+      "version": "0.1.0",
       "author": {
         "name": "luis.chaves"
-      }
+      },
+      "homepage": "https://github.com/DevCordeirocf/my-mods/tree/master/mods/model-router",
+      "repository": "https://github.com/DevCordeirocf/my-mods"
     },
     {
       "name": "prompt-engineer",
       "source": "./mods/prompt-engineer",
       "description": "Transforma o rascunho do chat em um prompt bem estruturado, com modos e perguntas guiadas.",
+      "version": "0.1.0",
       "author": {
         "name": "luis.chaves"
-      }
+      },
+      "homepage": "https://github.com/DevCordeirocf/my-mods/tree/master/mods/prompt-engineer",
+      "repository": "https://github.com/DevCordeirocf/my-mods"
     },
     {
       "name": "session-stats",
       "source": "./mods/session-stats",
       "description": "Mostra se o cache está quente, o contexto e os tokens da sessão, e avisa antes de perder o cache.",
+      "version": "0.1.0",
       "author": {
         "name": "luis.chaves"
-      }
+      },
+      "homepage": "https://github.com/DevCordeirocf/my-mods/tree/master/mods/session-stats",
+      "repository": "https://github.com/DevCordeirocf/my-mods"
     }
   ],
   "description": "Mods do Luis para o Claude Code"
